@@ -1,0 +1,179 @@
+.navbar .navbar-brand {
+  width: 90px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+/***********************/
+.section-one {
+  height: 650px;
+  background-image: url(../img/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-one .home {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.section-one .home h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(33, 211, 181);
+  margin-bottom: 35px;
+}
+.section-one .home p {
+  font-size: 25px;
+}
+.section-two {
+  background-color: #f6f6f6;
+}
+.container .row {
+  text-align: center;
+  padding: 20px;
+}
+.container .row i {
+  color: rgb(33, 211, 181);
+}
+.container .row i,
+h4,
+p {
+  margin-top: 20px;
+}
+/***************************/
+.services {
+  margin-top: 20px;
+}
+.container .pragragh,
+h1 {
+  text-align: center;
+}
+.container h1 {
+  margin-top: 20px;
+  margin-bottom: -50px;
+  color: #ebeced;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 800;
+}
+.container .pragragh {
+  color: #797979;
+}
+.container .row p,
+h3 {
+  text-align: left;
+}
+.container .row .graphic {
+  margin-top: 60px;
+}
+.container .row .graphic .srv {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.container .row .graphic .srv i {
+  position: absolute;
+  left: -45px;
+  top: -10px;
+}
+.container .row .graphic .design {
+  margin-top: 100px;
+}
+.container .row .graphic .development {
+  margin-top: 70px;
+}
+.container .row .img {
+  position: relative;
+  /* visibility: hidden; */
+}
+/* .container .row .img :hover {
+  visibility: visible;
+  animation-delay: 2s;
+} */
+.container .row .img .cover {
+  width: 100px;
+  height: 500px;
+  background-color: darkcyan;
+  float: right;
+}
+.container .row .img img {
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  right: 18%;
+  top: 10%;
+}
+/****************/
+
+.portfolio {
+  width: 100%;
+  background-color: #ebeced;
+}
+.portfolio .container h1 {
+  margin-top: 20px;
+  margin-bottom: -50px;
+  color: #ffffff98;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 800;
+}
+.portfolio .card img {
+  width: 340px;
+  margin-top: 10px;
+}
+.portfolio .card {
+  width: 500px;
+  margin-top: 15px;
+}
+.contact-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact {
+  background-color: #f6f6f6;
+}
+.contact-home .contact-h h2 {
+  color: #2c4755;
+}
+.contact-home .contact-h h3 {
+  text-align: center;
+  color: #10cab7;
+}
+.contact-home .contact-c p {
+  font-weight: 500;
+}
+.contact-home .contact-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-home .contact-a a {
+  color: #2c4755;
+  text-decoration: none;
+}
+.contact-home .contact-a a:hover {
+  color: #10cab7;
+}
+footer {
+  height: 70px;
+  background-color: #2c4755;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+footer p {
+  color: white;
+  font-weight: bold;
+}
+footer p span {
+  color: #10cab7;
+  font-weight: bold;
+}
